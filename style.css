@@ -1,0 +1,278 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #192C3F;
+    display: flex;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+}
+
+.right img{
+    width: 30%;
+    height: 45%;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+.right h1{
+    margin-left: 160px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.right p{
+    color: rgba(255, 255, 255, 0.829);
+    width: 59%;
+    height: 10%;
+    font-size: 13px;
+    margin-left: 160px;
+    margin-top: 10px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.left{
+    width: 391px;
+    height: 567px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 90px;
+    border-radius: 15px;
+}
+
+.left #log {
+    width: 100%;
+    height: 17%;
+    /*background-color: tomato;*/
+    display: flex;
+    text-align: center;
+}
+
+#login h3{
+    font-size: 15px;
+    color: #73787B;
+    padding: 70PX 35PX;
+    margin-left: 75PX;
+    font-weight: 600;
+}
+
+#register h3{
+    color: #DDDDDD;
+    padding: 70PX 0PX;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.left #lines {
+    width: 80%;
+    height: 0.4%;
+    /*background-color: brown;*/
+    display: flex;
+    margin-left: 86px;
+    margin-top: 5px;
+}
+
+#lines #line1 {
+    width: 35%;
+    background-color: #505962;
+}
+
+#lines #line2 {
+    width: 35%;
+    background-color: #DBDBDB;
+}
+
+.left input {
+    width: 95%;
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #75787D;
+}
+
+.left label {
+    color: #727171;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.left a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #75787D;
+    margin-left: 225px;
+    font-weight: 600;
+}
+
+.left button {
+    background-color: #485867;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 50px;
+    text-align: center;
+    border: none;
+    margin-top: 55px;
+    margin-left: 120px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.left #regis {
+    /*background-color: tomato;*/
+    display: flex;
+    margin-left: 107px;
+    margin-top: 10px;
+    
+}
+
+#yet h6 {
+    font-size: 12px;
+    color: #AEAEAE;
+    font-weight: 600;
+}
+
+#re h6 {
+    font-size: 12px;
+    color: rgba(25, 44, 63, 0.829);
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:500px) {
+    body {
+        flex-direction: column;
+    }
+    .right {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px !important;
+    }
+    .right img {
+        height: 35%;
+        width: 50%;
+        text-align: center;
+        /*margin-left: 120px;*/
+    }
+    .right h1{
+        margin-left: 30px;
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 30px;
+    }
+    .right p {
+        width: 40%;
+        font-size: 15px;
+        padding: 0px !important;
+    }
+
+    .right p {
+        width: 95%;
+        margin-top: 15px;
+        line-height: 25px;
+        color: white;
+        font-size: 11px;
+        margin-left: 30px;
+        font-weight: 900;
+    }
+    /*.left {
+        width: 85% !important;
+        padding: 0px;
+        position: relative;
+        min-height: 120% !important;
+    }*/
+    .left{
+        width: 391px;
+        height: 567px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-left: 30px;
+        border-radius: 15px;
+    }
+    .left #log {
+        width: 100%;
+        height: 17%;
+        /*background-color: tomato;*/
+        display: flex;
+        text-align: center;
+    }
+    
+    #login h3{
+        font-size: 15px;
+        color: #73787B;
+        padding: 70PX 35PX;
+        margin-left: 75PX;
+        font-weight: 600;
+    }
+    
+    #register h3{
+        color: #DDDDDD;
+        padding: 70PX 0PX;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .left #lines {
+        width: 90%;
+        height: 0.4%;
+        /*background-color: brown;*/
+        display: flex;
+        margin-left: 90px;
+        margin-top: 5px;
+    }
+    
+    #lines #line1 {
+        width: 30%;
+        background-color: #505962;
+    }
+    
+    #lines #line2 {
+        width: 30%;
+        background-color: #DBDBDB;
+    }
+    
+    .left #forgot {
+        font-size: 12px; 
+        color: #75787D;
+        margin-top: 10px;
+        margin-left: 200px;
+        font-weight: 600; 
+    }
+    .left button {
+        background-color: #485867;
+        font-size: 15px;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 15px 52px;
+        text-align: center;
+        border: none;
+        margin-top: 55px;
+        margin-left: 110px;
+        font-weight: 600;
+    }
+    .left #regis {
+        /*background-color: tomato;*/
+        margin-left: 104px;
+        margin-top: 10px;
+        font-weight: 600; 
+    }
+}

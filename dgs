@@ -1,0 +1,181 @@
+    <div class="left">
+        <img src="Asset 2.png" alt="">
+        <h1>Welcome!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sapiente vero voluptate iusto, totam harum illum numquam labore quibusdam suscipit sunt quae consectetur odio iste ratione natus ipsam corrupti odit delectus neque inventore eos
+            nobis facere. Incidunt, fugiat ad. Nihil, accusamus praesentium?</p>
+    </div>
+    <div class="right">
+        <div class="box">
+            <div id="log">
+                <div id="login">
+                    <h3>Log In</h3>
+                </div>
+                <div id="register">
+                    <h3>Register</h3>
+                </div>
+            </div>
+            <div id="dande">
+                <div id="line1"></div>
+                <div id="line2"></div>
+            </div>
+            <h5>Email/Mobile Number</h5>
+            <input type="text" placeholder="Username">
+            <h5>Password</h5>
+            <input type="password" placeholder="Password">
+            <div id="forgot">Forget Password</div>
+            <button>LOGIN</button>
+            <div id="regis">
+                <div id="yet">
+                    <h6>Not a member yet?</h6>
+                </div>
+                <div id="re">
+                    <h6>Register</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    .left {
+    width: 65%;
+    height: 100%;
+    padding: 120px 150px;
+}
+
+.left img {
+    height: 65%;
+    width: 45%;
+}
+
+.left h1 {
+    color: whitesmoke;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.left p {
+    width: 85%;
+    margin-top: 15px;
+    line-height: 24px;
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.right {
+    width: 35%;
+    min-height: 100%;
+}
+
+.box {
+    width: 80%;
+    height: 75%;
+    background-color: #FFFFFF;
+    margin-top: 85px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+.box #log {
+    width: 100%;
+    height: 17%;
+    /*background-color: tomato;*/
+    display: flex;
+}
+
+#login {
+    color: #73787B;
+    padding: 70PX 45PX;
+    margin-left: 60PX;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#register {
+    color: #DDDDDD;
+    padding: 70PX 0PX;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box #dande {
+    width: 100%;
+    height: 0.2%;
+    /*background-color: brown;*/
+    display: flex;
+    margin-left: 70px;
+}
+
+#dande #line1 {
+    width: 30%;
+    background-color: #505962;
+}
+
+#dande #line2 {
+    width: 30%;
+    background-color: #DBDBDB;
+}
+
+.box h5 {
+    color: #75787D;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-weight: 900;
+}
+
+.box input {
+    width: 78%;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #75787D;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box #forgot {
+    font-size: 12px;
+    color: #75787D;
+    margin-top: 10px;
+    margin-left: 245px;
+    font-weight: 600;
+}
+
+.box button {
+    background-color: #485867;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 52px;
+    text-align: center;
+    border: none;
+    margin-top: 55px;
+    margin-left: 120px;
+    font-weight: 600;
+}
+
+.box #regis {
+    /*background-color: tomato;*/
+    display: flex;
+    margin-left: 122px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#yet h6 {
+    color: #AEAEAE;
+}
+
+#re h6 {
+    color: rgba(25, 44, 63, 0.829);
+    margin-left: 2px;
+}
